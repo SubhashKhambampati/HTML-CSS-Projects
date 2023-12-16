@@ -38,6 +38,7 @@ html,body{
 }
 .wrapper:hover > .front-face{
   transform: rotateY(-180deg);
+  backface-visibility: hidden;
 }
 
 .wrapper .card img{
