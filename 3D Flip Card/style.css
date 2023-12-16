@@ -21,7 +21,7 @@ html,body{
   width: 320px;
   position: relative;
   transform-style: preserve-3d;
- perspective: 1000px;
+  perspective: 1000px;
 }
 .wrapper .card{
   position: absolute;
@@ -39,6 +39,7 @@ html,body{
 .wrapper:hover > .front-face{
   transform: rotateY(-180deg);
 }
+
 .wrapper .card img{
   height: 100%;
   width: 100%;
